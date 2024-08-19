@@ -174,3 +174,69 @@ Here's the revised list of topics formatted in Markdown with bullet points inste
 - **Git GUI clients**: Introduction to graphical user interfaces for Git, such as SourceTree or GitKraken.
 - **Git and Unity**: Specific considerations for using Git with Unity projects, including .gitignore setup.
 - **Git submodules**: Managing external dependencies as subprojects within a Git repository.
+
+Based on the attached slides about math for Unity3D, here's a list of main topics with brief descriptions, formatted in Markdown:
+
+### Math
+
+#### Trigonometry Basics
+
+- **Sin/Cos**: Introduction to sine and cosine functions, including their relationship to degrees and radians.
+- **ArcSin/Cos**: Explanation of inverse trigonometric functions using Mathf.asin() and Mathf.acos().
+
+#### Triangle Geometry
+
+- **Pythagorean theorem**: Fundamental relationship between the sides of a right-angled triangle.
+- **Triangle angles**: The principle that the sum of all angles in a triangle is 180 degrees.
+- **Law of Sines**: Formula relating the lengths of the sides of a triangle to the sines of its angles.
+- **Law of Cosines**: Formula relating the lengths of the sides of a triangle to the cosine of one of its angles.
+
+#### Vector Mathematics
+
+- **Vector basics**: Definition of vectors including direction, length (magnitude), and their distinction from positions.
+- **Vector operations**: Explanation of vector addition, multiplication, and subtraction.
+- **Vector subtraction**: Technique for finding the vector between two points.
+- **Magnitude**: Calculation of vector length and its use in finding distances.
+- **Normalization**: Process of creating a unit vector from any given vector.
+- **Middle point**: Calculation of the midpoint between two vectors.
+- **Center of mass**: Determination of the center point for multiple vectors.
+
+#### Linear Interpolation
+
+- **Lerp basics**: Introduction to linear interpolation for smooth transitions between values.
+- **Lerp applications**: Use of lerp for various data types including scalars, vectors, colors, and orientations.
+- **InverseLerp**: Explanation of the inverse lerp function and its applications.
+- **Bezier curves**: Creation of Bezier curves using interpolation techniques.
+- **Advanced interpolation**: Introduction to non-linear interpolation methods and easing functions.
+
+#### Dot Product and Projection
+
+- **Dot product**: Explanation of the dot product operation and its geometric interpretation.
+- **Vector projection**: Technique for projecting one vector onto another using the dot product.
+
+#### Cross Product
+
+- **Cross product basics**: Introduction to the cross product operation and its geometric meaning.
+- **Coordinate systems**: Explanation of left-handed and right-handed coordinate systems.
+
+#### Quaternions
+
+- **Quaternion basics**: Introduction to quaternions as a representation of 3D rotations.
+- **Quaternion operations**: Overview of basic quaternion operations like multiplication and inversion.
+- **Euler angles vs Quaternions**: Comparison of rotation representations and the advantages of quaternions.
+- **Quaternion interpolation**: Explanation of Slerp (Spherical Linear Interpolation) for smooth rotation transitions.
+
+#### Geometric Operations
+
+- **Billboard**: Technique for making objects always face the camera.
+- **Parametric line**: Mathematical representation of lines using a parameter.
+- **Line-line intersections**: Calculation of intersection points between two lines in 2D space.
+- **Parametric plane**: Mathematical representation of planes using two parameters.
+- **Line-plane intersection**: Calculation of intersection points between lines and planes in 3D space.
+- **Line-rectangle intersection**: Technique for determining if and where a line intersects a rectangle.
+- **Ray-plane intersection**: Unity-specific implementation of ray-plane intersection tests.
+
+#### Reflection
+
+- **2D reflection**: Calculation of reflection vectors in 2D space.
+- **3D reflection**: Extension of reflection calculations to 3D space.
